@@ -20,13 +20,13 @@ export default defineConfig({
       testMatch: /auth.setup\.ts/,
     },
     {
-      name: 'chromium',
+      name: 'chromium1',
       use: { ...devices['Desktop Chrome'] },
       dependencies: ['setup'],
       testDir: './tests/all-tests',
     },
     {
-      name: 'firefox',
+      name: 'firefox1',
       use: { ...devices['Desktop Firefox'] },
       dependencies: ['setup'],
       testDir: './tests/all-tests',
